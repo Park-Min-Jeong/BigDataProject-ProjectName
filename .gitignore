@@ -9,4 +9,5 @@ secret.json
 
 *.csv
 *.XPT
+*.xls
 *.Rproj
