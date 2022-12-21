@@ -11,3 +11,4 @@ secret.json
 *.XPT
 *.xls
 *.Rproj
+*.geojson
