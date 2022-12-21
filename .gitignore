@@ -1,0 +1,12 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+.ipynb_checkpoints/
+
+secret.json
+
+*.csv
+*.XPT
+*.Rproj
