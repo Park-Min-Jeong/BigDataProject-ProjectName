@@ -12,3 +12,4 @@ secret.json
 *.xls
 *.Rproj
 *.geojson
+*.log

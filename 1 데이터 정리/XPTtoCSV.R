@@ -1,5 +1,5 @@
 library(foreign) 
-a = read.xport("LLCP2021.XPT")
+a = read.xport("./rawdata/LLCP2021.XPT")
 class(a)
 names(a)
 
@@ -22,5 +22,5 @@ b <- subset(a, select=c(CVDINFR4, SEXVAR, HEIGHT3, WEIGHT2, BLIND, DEAF, DIABETE
 names(b) <- c("HEARTDISEASE", "SEX", "HEIGHT", "WEIGHT", "BLIND", "DEAF", "DIABETE", "CHOLESTEROL", "HYPERTENSION", "KIDNEY", "LIVER1", "LIVER2", "ALCOHOL", "SMOKE")
 names(b)
 
-write.csv(a, "./brfss_raw.csv", row.names=F);print("a")
-write.csv(b, "./brfss.csv", row.names=F);print("b")
+write.csv(a, "./temp/brfss_raw.csv", row.names=F);print("a")
+write.csv(b, "./temp/brfss.csv", row.names=F);print("b")
