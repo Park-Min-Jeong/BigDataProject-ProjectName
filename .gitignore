@@ -6,3 +6,7 @@
 .ipynb_checkpoints/
 
 secret.json
+
+*.csv
+*.XPT
+*.Rproj
