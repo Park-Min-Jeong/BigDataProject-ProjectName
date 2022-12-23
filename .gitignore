@@ -10,6 +10,9 @@ secret.json
 *.csv
 *.XPT
 *.xls
+# rawdata/
+# temp/
+
 *.Rproj
 *.geojson
 *.log
